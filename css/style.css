@@ -1,0 +1,180 @@
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('BebasNeue-Regular.ttf')  format('truetype')
+    }
+
+#body{
+	color: white;
+	font-family: 'Bebas Neue';
+}
+
+.mainBg{
+	width: 100%;
+	height: 110vh;
+	background-image: url("bg image 1.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: none;
+}
+
+.header{
+	width: 80%;
+	height: 76px;
+	display: flex;
+	justify-content: space-between;
+	align-self: center;
+	position: relative;
+	top: 2vh;
+	left: 10%;
+	font-size: 30px;
+}
+
+.logo1{
+	width: 75px;
+	height: 75px;
+	background-image: url("logo.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.menu{
+	width: 45%;
+	display: flex;
+	justify-content: space-between;
+	align-self: center;
+}
+
+.icons{
+	width: 10%;
+	height: 41px;
+	display: flex;
+	justify-content: space-between;
+	align-self: center;
+}
+
+.icon{
+	width: 41px;
+	height: 41px;
+
+}
+
+.h{
+	width: 50%;
+	height: 20vh;
+	position: absolute;
+	left: 25%;
+	top: 40vh;
+	text-align: center;
+	line-height: 5px;
+}
+
+.p1{
+	font-size: 80px;
+	height: 50px;
+}
+
+.p2{
+	font-size: 24px;
+	height: 24px;
+}
+
+.but{
+	color: black;
+	width: 260px;
+	height: 60px;
+	background: #FFB548;
+	border: 0px;
+	border-radius: 5px;
+	font-size: 20px;
+}
+
+.mainBg2{
+	width: 100%;
+	height: 110vh;
+	background-image: url("bg image 2.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;	
+	margin: none;
+}
+
+.sos{
+	position: absolute;
+	left: 10%;
+	top: 135vh;
+	width: 40%;
+	height: 40vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;	
+}
+
+.p3{
+	font-size: 24px;
+}
+
+.p4{
+	font-size: 80px;
+	border-bottom: solid 3px white;
+	margin-bottom: 5%;
+}
+
+.mainBg3{
+	width: 100%;
+	height: 110vh;
+	background-image: url("Group.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: none;
+}
+
+
+.mainBg4{
+	width: 100%;
+	height: 110vh;
+	background-image: url("requirements.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+
+
+.mainBg5{
+	width: 100%;
+	height: 110vh;
+	background-image: url("bg image 3.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.mainBg6{
+	width: 100%;
+	height: 110vh;
+	background: #080A0B;
+}
+
+.image{
+	background-image: url("image.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 30%;
+	height: 80vh;
+	position: relative;
+	top: 5vh;
+	left: 15%;
+}
+
+.headerBottom{
+	top: 10vh;
+	border-bottom: solid 2px gray;
+	padding-bottom: 10px;
+}
+
+#lostheader{
+	position: relative;
+	top: 12vh;
+	left: 10%;
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+	color: gray;
+}
